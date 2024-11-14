@@ -1,0 +1,63 @@
+.card-foot{
+    border: 0;
+    background-color: white;
+
+    
+}
+.css-card{
+    border: 0;
+
+}
+nav .name
+{
+    padding: 22px 20px 22px 0px; 
+    height: 8px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+
+nav
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+nav ul li a
+{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size:bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(49, 1, 1, 0.5);
+    border-radius : 6px;
+}
+.photo
+{
+    height: 300px;
+    
+}
+

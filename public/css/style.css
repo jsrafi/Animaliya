@@ -1,0 +1,265 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .name
+{
+    padding: 22px 20px;
+    height: 8px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+nav ul li a
+{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size:bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(49, 1, 1, 0.5);
+    border-radius : 6px;
+}
+.img
+{
+    width: 50%;
+    height: 50vh;
+    background: url(doc.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.nam1
+{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:whitesmoke;
+    padding: 2px 2px;
+    height: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:chartreuse;
+}
+.opn
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bus
+{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-family: century;
+    font-size: 3rem;
+    margin: 40px 0px;
+    padding-top: 100px;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    padding-top: 50px;
+}
+.headings1{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    padding-top: 100px;
+}
+#Apointment{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#Apointment::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/raf3.webp') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity:.8;
+}
+section .img
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity:.8; 
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: qpx solid black;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+#Gallery{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 550px;
+    height: 340px;
+    margin: 10px;
+}
+#Business
+{
+    margin-top: 60px;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.raw{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin:10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255,45,45)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .7s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+
+.box p{
+    font-size: larger;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
+.box2
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin:10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    padding-top: 50px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: darkgray;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+
+}
+.lastimg
+{
+    margin-left :70px;
+    margin-top: 60px;
+    
+}
+.dog
+{
+    height: 70px;
+    width: 70px;  
+}
+.cat
+{
+    height: 90px;
+    width: 90px;
+}
+.panda{
+    height: 80px;
+    width: 80px;
+}
+#end
+{
+    margin-top: 110px;
+}

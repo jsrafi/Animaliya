@@ -1,0 +1,112 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+.lastimg
+{
+    margin-left :70px;
+    margin-top: 60px;
+    
+}
+.dog
+{
+    height: 70px;
+    width: 70px;  
+}
+.cat
+{
+    height: 90px;
+    width: 90px;
+}
+.panda{
+    height: 80px;
+    width: 80px;
+}
+.food
+{
+    padding-top: 110px;
+}
+.rescue
+{
+    padding-top: 40px;  
+}
+.petfood
+{
+    margin-left: 80px;
+}
+.petrescue
+{
+    margin-left: 50px;
+    height: 350px;
+    width: 350px;
+}
+.petvet
+{
+    height: 350px;
+    width: 350px;
+    margin-left: 250px;
+}
+.text1
+{
+    text-align: justify;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+nav
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .name
+{
+    padding: 22px 20px;
+    height: 8px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+nav ul li a
+{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size:bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(49, 1, 1, 0.5);
+    border-radius : 6px;
+}
+
+section .img
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+
+}
